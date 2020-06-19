@@ -1,39 +1,18 @@
 # 作用：
   **图片显示控件**
 ```
-    typelist: { // 答案列表(已答题) || 空数列表和空类型
-      type: Array,
-      default () {
-        return []
-      }
+    imgdata: { // 图片链接，字符串或数组
+      type: String || Array,
+      default: ''
     },
-    complate: { // 题目是否完成
-      type: Boolean,
-      default () {
-        return false
-      }
-    },
-    detail: { // 题目内容
+    float: { // 从左往右 start，从右往左 end
       type: String,
-      default () {
-        return ''
-      }
-    },
-    imgs: { // 题目图片
-      type: Array,
-      default () {
-        return []
-      }
-    },
-    topicid: { // 题目ID或者其它，最终会绑定到答题框中，可用户聚焦时滚动定位
-      type: String,
-      default () {
-        return ''
-      }
+      default: 'end'
     }
 ```
 
-#### 依赖vuetify（v-navigation-drawer，v-checkbox），vuetify style，sass。
-#### 依赖feiyan-math-input
+#### 依赖vuetify style, vue-photo-preview。
+# import feiyanImg from 'feiyan-img'
+# Vue.use(feiyanImg)
 
-# 默认标签 < fillsContentShow />
+# 默认标签 < feiyan-img />
