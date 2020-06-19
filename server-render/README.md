@@ -21,3 +21,4 @@
 
 ###### 数据渲染实现了100ms的防抖，提升学生输入公式时的渲染速度
 # 默认标签 < vue-mathjax />
+# 引入css样式 /server-render/src/mathStyle.css
