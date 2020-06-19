@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import serverRender from '../server-render'
-import '../server-render/src/mathStyle.css'
+import serverRender from '../packges/server-render'
+import '../packges/server-render/src/mathStyle.css'
 
 Vue.use(serverRender)
 
