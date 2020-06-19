@@ -32,3 +32,6 @@
 # 默认标签 < math-input />
 # 引入css样式 /feiyan-math-input/src/math-input.css
 # 键盘布局 /feiyan-math-input/src/mathConfig
+# import MathLive from 'feiyan-math-input'
+# import 'feiyan-math-input/src/math-input.css'
+# Vue.use(VueMathjax)
