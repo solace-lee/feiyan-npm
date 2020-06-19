@@ -1,0 +1,18 @@
+{
+  "name": "feiyan-topic-fills",
+  "version": "1.0.0",
+  "description": "math render service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "fills"
+  ],
+  "author": "public",
+  "license": "MIT",
+  "dependencies": {
+    "mathjax-full": "^3.0.5"
+  }
+}

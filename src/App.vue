@@ -5,16 +5,19 @@
       <h2>组件库模板</h2>
     </div>
     <ServerRender />
+    <feiyanmathinput />
   </div>
 </template>
 
 <script>
 import ServerRender from './template/serverRender.vue'
+import feiyanmathinput from './template/feiyanmathinput.vue'
 
 export default {
   name: 'App',
   components: {
-    ServerRender
+    ServerRender,
+    feiyanmathinput
   }
 }
 </script>
