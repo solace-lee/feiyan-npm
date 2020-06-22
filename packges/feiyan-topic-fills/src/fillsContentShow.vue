@@ -11,9 +11,9 @@
       />
     </div>
 
-    <img-list
-      v-if="imgs.length"
-      :urlList="imgs"
+    <feiyan-img
+      :imgdata="imgs"
+      float="end"
     />
 
     <fills-input

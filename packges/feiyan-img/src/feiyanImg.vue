@@ -1,15 +1,16 @@
 <template>
-  <div class="d-inline-block">
+  <div>
     <div
       v-if="imgList.length"
       :class="`d-flex flex-wrap justify-${float}`"
     >
-      <img
-        v-for="(i, index) in imgList"
-        :key="index"
-        :src="i"
-        :preview="i"
-      />
+      <viewer :images="imgList">
+        <img
+          v-for="(i, index) in imgList"
+          :key="index"
+          :src="i"
+        />
+      </viewer>
     </div>
   </div>
 </template>
@@ -19,7 +20,7 @@ export default {
   name: 'FeiyanImg',
   props: {
     imgdata: {
-      type: String || Array,
+      type: [String, Array],
       default: ''
     },
     float: {

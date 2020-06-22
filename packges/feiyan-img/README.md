@@ -11,7 +11,7 @@
     }
 ```
 
-#### 依赖vuetify style, vue-photo-preview。
+#### 依赖vuetify style。
 # import feiyanImg from 'feiyan-img'
 # Vue.use(feiyanImg)
 

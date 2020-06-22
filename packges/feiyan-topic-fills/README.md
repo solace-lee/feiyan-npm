@@ -38,7 +38,7 @@
 ```
 # 答案数量和空的数量不匹配时会报内部错误
 #### 依赖vuetify（v-navigation-drawer，v-checkbox），vuetify style，sass。
-#### 依赖feiyan-math-input
+#### 依赖feiyan-math-input feiyan-img
 # import fillsContentShow from 'feiyan-topic-fills'
 # Vue.use(fillsContentShow)
 

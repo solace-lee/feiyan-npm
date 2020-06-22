@@ -1,6 +1,6 @@
 {
   "name": "feiyan-topic-fills",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "填空题做题和显示组件",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,9 @@
     "fills"
   ],
   "author": "public",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "feiyan-img": "^1.0.2",
+    "feiyan-math-input": "^1.0.1"
+  }
 }
