@@ -5,9 +5,21 @@
       type: String || Array,
       default: ''
     },
-    float: { // 从左往右 start，从右往左 end
+    float: { // 从左往右 start end space-between space-around // flex布局下生效
       type: String,
       default: 'end'
+    },
+    display: { // 图片布局方式
+      type: String,
+      default: 'flex' // flex block inline-block inline //flex 会启用flex-wrap
+    },
+    width: {
+      type: String,
+      default: 'auto'
+    },
+    height: {
+      type: String,
+      default: 'auto'
     }
 ```
 

@@ -55,13 +55,11 @@
 </template>
 
 <script>
-import imgList from '@/components/common/imgList'
 import fillsInput from './fillsInput'
 export default {
   name: 'FillsContentShow',
   components: {
-    fillsInput,
-    imgList
+    fillsInput
   },
   props: {
     typelist: {

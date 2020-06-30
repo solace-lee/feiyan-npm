@@ -1,6 +1,6 @@
 {
   "name": "feiyan-img",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "图片显示组件",
   "main": "index.js",
   "scripts": {

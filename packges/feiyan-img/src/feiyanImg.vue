@@ -1,14 +1,15 @@
 <template>
-  <div>
+  <div :style="`width:${width};height:${height}`">
     <div
       v-if="imgList.length"
-      :class="`d-flex flex-wrap justify-${float}`"
+      :class="`d-${display} ${display === 'flex' ? ('justify-'+ float + ' flex-wrap') : ''}`"
     >
       <viewer :images="imgList">
         <img
           v-for="(i, index) in imgList"
           :key="index"
           :src="i"
+          style="width:100%;height:100%"
         />
       </viewer>
     </div>
@@ -26,6 +27,18 @@ export default {
     float: {
       type: String,
       default: 'end'
+    },
+    display: {
+      type: String,
+      default: 'flex'
+    },
+    width: {
+      type: String,
+      default: 'auto'
+    },
+    height: {
+      type: String,
+      default: 'auto'
     }
   },
   data () {

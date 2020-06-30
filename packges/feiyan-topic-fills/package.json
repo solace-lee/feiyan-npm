@@ -1,6 +1,6 @@
 {
   "name": "feiyan-topic-fills",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "填空题做题和显示组件",
   "main": "index.js",
   "scripts": {
