@@ -7,7 +7,7 @@
         return []
       }
     },
-    complate: { // 题目是否完成
+    complete: { // 题目是否完成
       type: Boolean,
       default () {
         return false

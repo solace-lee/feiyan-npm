@@ -68,7 +68,7 @@ export default {
         return []
       }
     },
-    complate: {
+    complete: {
       type: Boolean,
       default () {
         return false
@@ -199,7 +199,7 @@ export default {
       if (this.answerlist.length === allLength) {
         // 答案和空匹配上了长度
         let x = this.insertAnswer(index)
-        if (this.complate && 'isTrue' in this.answerlist[index]) {
+        if (this.complete && 'isTrue' in this.answerlist[index]) {
           // 未来给单空标识对还是错使用
           const a = '<i class="notranslate success--text mdi mdi-check theme--light"></i>'
           const b = '<i class="notranslate error--text mdi mdi-close theme--light"></i>'
@@ -216,7 +216,7 @@ export default {
       }
     },
     temp (content, index) {
-      if ((!content || content === '$$') && !this.complate) {
+      if ((!content || content === '$$') && !this.complete) {
         const c = '<i class="notranslate primary--text mdi mdi-border-color theme--light"></i>'
         const d = '<i class="notranslate primary--text mdi mdi-cursor-pointer theme--light"></i>'
         if (this.answerlist[index].type === 1) {
@@ -253,7 +253,7 @@ export default {
       }
     },
     handlerAnswer () {
-      if (window.fillsIndex !== -1 && !this.complate) {
+      if (window.fillsIndex !== -1 && !this.complete) {
         // 题目未完成，激活点击事件
         this.selectIndex = window.fillsIndex
         if (this.answerlist[this.selectIndex].type === 1) {
