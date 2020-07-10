@@ -212,7 +212,7 @@ export default {
         return x
       } else {
         // 答案和实际空数对不上
-        return '内部错误'
+        return '未作答'
       }
     },
     temp (content, index) {
