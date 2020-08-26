@@ -33,6 +33,7 @@
       floating
       bottom
       temporary
+      hide-overlay
     >
       <div class="d-flex flex-column pa-4">
         <v-checkbox
