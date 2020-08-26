@@ -91,6 +91,12 @@ export default {
       default () {
         return ''
       }
+    },
+    errorMsg: {
+      type: String,
+      default () {
+        return '未作答'
+      }
     }
   },
   data () {
@@ -212,7 +218,7 @@ export default {
         return x
       } else {
         // 答案和实际空数对不上
-        return '未作答'
+        return this.errorMsg
       }
     },
     temp (content, index) {

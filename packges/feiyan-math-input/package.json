@@ -1,6 +1,6 @@
 {
   "name": "feiyan-math-input",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "math input",
   "main": "index.js",
   "scripts": {

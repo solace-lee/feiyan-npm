@@ -36543,7 +36543,7 @@ function makeKeyboardToolbar(mf, keyboardIDs, currentKeyboard) {
   // onclick="x=body.getElementsByClassName('ML__keyboard');for(i=0;i<x.length;i++){x[i].classList.remove('is-visible')};"
   // <span style="padding: 2px 5px; background: #fe990025 !important;border-radius:6px;font-size:12px">黄键可长按</span>
 
-  result += "\n        <div class='right'>\n            <div style=\"display:flex;align-items:center;margin-top:2px\">\n                <span style=\"width:22px;height:14px; background: #fe990050 !important;border-radius:2px;font-size:12px;margin-right:1px\"></span>\n                <span>\u53EF\u957F\u6309</span>\n            </div>\n            <div\n                class='action'\n                data-command='\"changeType\"'\n                data-tooltip=\"\u6539\u53D8\u8F93\u5165\u65B9\u5F0F\"\n                style=\"display:flex;align-items:center;margin-top:2px\"\n            >\n                <span\n                    style=\"width: 21px;padding-bottom:3px\">\n                    <svg class=\"icon\" style=\"font-size:24px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\">\n                    <path d=\"M996.35241 885.76h-166.0416v110.592a27.6992 27.6992 0 0 1-27.6992 27.648h-27.648a27.6992 27.6992 0 0 1-27.6992-27.648V885.76h-166.0416a27.6992 27.6992 0 0 1-27.648-27.6992v-193.792a27.6992 27.6992 0 0 1 27.648-27.6992H747.52041v-110.6944a27.6992 27.6992 0 0 1 27.6992-27.648h27.648a27.6992 27.6992 0 0 1 27.6992 27.648v110.6944h165.7856a27.6992 27.6992 0 0 1 27.648 27.6992v193.6896a27.6992 27.6992 0 0 1-27.648 27.6992z m-332.0832-166.0416a27.6992 27.6992 0 0 0-27.6992 27.648v27.6992a27.6992 27.6992 0 0 0 27.6992 27.648H747.52041v-83.0976z m276.48 27.648a27.6992 27.6992 0 0 0-27.6992-27.648h-82.7392v82.9952h82.9952a27.6992 27.6992 0 0 0 27.6992-27.648V747.52zM403.09801 308.6848l105.472 217.1904H299.11081l103.9872-217.1904z m288.8192 272.5376h-64.9216L440.73001 198.144v-0.4096a29.696 29.696 0 0 0-1.7408-2.6624 40.96 40.96 0 0 0-21.1456-19.456h-0.6144a40.96 40.96 0 0 0-15.36-2.6624c-1.1264 0-2.2528 0.512-3.5328 0.6144a37.6832 37.6832 0 0 0-11.1104 2.048c-0.512 0-0.768 0.6144-1.28 0.768s-0.3584 0.3584-0.6144 0.3584a40.2432 40.2432 0 0 0-21.248 22.1184v0.3584l-211.8144 442.1632a41.5232 41.5232 0 0 0 77.2096 30.72l43.2128-90.2144h225.28v332.0832H110.69481A110.6432 110.6432 0 0 1 0.00041 803.0208V110.6944A110.6432 110.6432 0 0 1 110.69481 0h581.2224a110.6432 110.6432 0 0 1 110.6944 110.6944v332.0832h-110.6944v138.24z\" p-id=\"8927\"></path>\n                </span>\n                <span>\u4E2D\u6587</span>\n            </div>\n            <div\n                class='action'\n                data-command='\"turnOffBox\"'\n                data-tooltip=\"\u6536\u8D77\u6240\u6709\u516C\u5F0F\u952E\u76D8\"\n                style=\"display:flex;align-items:center;margin-top:2px\"\n            >\n                <span\n                    style=\"width: 21px; padding-bottom:3px\">\n                    <svg class=\"icon\" style=\"font-size:24px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n                    <path d=\"M528 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h480c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm16 336c0 8.823-7.177 16-16 16H48c-8.823 0-16-7.177-16-16V112c0-8.823 7.177-16 16-16h480c8.823 0 16 7.177 16 16v288zM168 268v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm-336 80v-24c0-6.627-5.373-12-12-12H84c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm384 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zM120 188v-24c0-6.627-5.373-12-12-12H84c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm-96 152v-8c0-6.627-5.373-12-12-12H180c-6.627 0-12 5.373-12 12v8c0 6.627 5.373 12 12 12h216c6.627 0 12-5.373 12-12z\"/></svg>\n                </span>\n                <span>\u6536\u8D77</span>\n            </div>\n        </div>\n    "; // result += `
+  result += "\n        <div class='right'>\n            <div style=\"display:flex;align-items:center;margin-top:2px\">\n                <span style=\"width:22px;height:14px; background: #F7EAB9 !important;border-radius:2px;font-size:12px;margin-right:1px\"></span>\n                <span>\u53EF\u957F\u6309</span>\n            </div>\n            <div\n                class='action'\n                data-command='\"changeType\"'\n                data-tooltip=\"\u6539\u53D8\u8F93\u5165\u65B9\u5F0F\"\n                style=\"display:flex;align-items:center;margin-top:2px\"\n            >\n                <span\n                    style=\"width: 21px;padding-bottom:3px\">\n                    <svg class=\"icon\" style=\"font-size:24px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1000\">\n                    <path d=\"M996.35241 885.76h-166.0416v110.592a27.6992 27.6992 0 0 1-27.6992 27.648h-27.648a27.6992 27.6992 0 0 1-27.6992-27.648V885.76h-166.0416a27.6992 27.6992 0 0 1-27.648-27.6992v-193.792a27.6992 27.6992 0 0 1 27.648-27.6992H747.52041v-110.6944a27.6992 27.6992 0 0 1 27.6992-27.648h27.648a27.6992 27.6992 0 0 1 27.6992 27.648v110.6944h165.7856a27.6992 27.6992 0 0 1 27.648 27.6992v193.6896a27.6992 27.6992 0 0 1-27.648 27.6992z m-332.0832-166.0416a27.6992 27.6992 0 0 0-27.6992 27.648v27.6992a27.6992 27.6992 0 0 0 27.6992 27.648H747.52041v-83.0976z m276.48 27.648a27.6992 27.6992 0 0 0-27.6992-27.648h-82.7392v82.9952h82.9952a27.6992 27.6992 0 0 0 27.6992-27.648V747.52zM403.09801 308.6848l105.472 217.1904H299.11081l103.9872-217.1904z m288.8192 272.5376h-64.9216L440.73001 198.144v-0.4096a29.696 29.696 0 0 0-1.7408-2.6624 40.96 40.96 0 0 0-21.1456-19.456h-0.6144a40.96 40.96 0 0 0-15.36-2.6624c-1.1264 0-2.2528 0.512-3.5328 0.6144a37.6832 37.6832 0 0 0-11.1104 2.048c-0.512 0-0.768 0.6144-1.28 0.768s-0.3584 0.3584-0.6144 0.3584a40.2432 40.2432 0 0 0-21.248 22.1184v0.3584l-211.8144 442.1632a41.5232 41.5232 0 0 0 77.2096 30.72l43.2128-90.2144h225.28v332.0832H110.69481A110.6432 110.6432 0 0 1 0.00041 803.0208V110.6944A110.6432 110.6432 0 0 1 110.69481 0h581.2224a110.6432 110.6432 0 0 1 110.6944 110.6944v332.0832h-110.6944v138.24z\" p-id=\"8927\"></path>\n                </span>\n                <span>\u4E2D\u6587</span>\n            </div>\n            <div\n                class='action'\n                data-command='\"turnOffBox\"'\n                data-tooltip=\"\u6536\u8D77\u6240\u6709\u516C\u5F0F\u952E\u76D8\"\n                style=\"display:flex;align-items:center;margin-top:2px\"\n            >\n                <span\n                    style=\"width: 21px; padding-bottom:3px\">\n                    <svg class=\"icon\" style=\"font-size:24px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n                    <path d=\"M528 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h480c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm16 336c0 8.823-7.177 16-16 16H48c-8.823 0-16-7.177-16-16V112c0-8.823 7.177-16 16-16h480c8.823 0 16 7.177 16 16v288zM168 268v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm-336 80v-24c0-6.627-5.373-12-12-12H84c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm384 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zM120 188v-24c0-6.627-5.373-12-12-12H84c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm-96 152v-8c0-6.627-5.373-12-12-12H180c-6.627 0-12 5.373-12 12v8c0 6.627 5.373 12 12 12h216c6.627 0 12-5.373 12-12z\"/></svg>\n                </span>\n                <span>\u6536\u8D77</span>\n            </div>\n        </div>\n    "; // result += `
   //     <div class='right'>
   //         <div class='action'
   //             data-command='"copyToClipboard"'
@@ -42280,16 +42280,17 @@ var editor_mathfield_MathField =
 /*#__PURE__*/
 function () {
   /**
-   * To create a mathfield, you would typically use {@linkcode module:MathLive#makeMathField MathLive.makeMathField()}
-   * instead of invoking directly this constructor.
-   *
-   *
-   * @param {HTMLElement} element - The DOM element that this mathfield is attached to.
-   * Note that `element.mathfield` is this object.
-   * @param {MathFieldConfig} config - See {@tutorial CONFIG} for details
-   * @method MathField#constructor
-   * @private
-   */
+       * To create a mathfield, you would typically use {@linkcode module:MathLive#makeMathField MathLive.makeMathField()}
+       * instead of invoking directly this constructor.
+       *
+       *
+       * @param {HTMLElement} element - The DOM element that this mathfield is attached to.
+       * Note that `element.mathfield` is this object.
+       * @param {MathFieldConfig} config - See {@tutorial CONFIG} for details
+       * @method MathField#constructor
+       * @param {boolean} longPressed
+       * @private
+  */
   function MathField(element, config, changeType) {
     var _this = this;
 
@@ -42300,6 +42301,7 @@ function () {
     this.element = element;
     element.mathfield = this; // Save existing content
 
+    this.longPressed = false;
     this.originalContent = element.innerHTML;
     var elementText = this.element.textContent; // 标记
 
@@ -42333,7 +42335,7 @@ function () {
         if (changeType === 'text') {
           markup += '<span class="ML__textarea">' + '<textarea class="ML__textarea__textarea" autocapitalize="off" autocomplete="off" ' + 'autocorrect="off" spellcheck="false" aria-hidden="true" tabindex="0" >' + '</textarea>' + '</span>';
         } else {
-          markup += "<span class='ML__textarea'>\n                        <span class='ML__textarea__textarea'\n                            tabindex=\"0\" role=\"textbox\"\n                            style='display:inline-block;height:1px;width:1px' >\n                        </span>\n                    </span>";
+          markup += "<span class='ML__textarea'>\n                <span class='ML__textarea__textarea'\n                    tabindex=\"0\" role=\"textbox\"\n                    style='display:inline-block;height:1px;width:1px' >\n                </span>\n            </span>";
         } // markup += `<span class='ML__textarea'>
         //     <span class='ML__textarea__textarea'
         //         tabindex="0" role="textbox"
@@ -42355,7 +42357,7 @@ function () {
       }
     }
 
-    markup += '<span class="ML__fieldcontainer">' + '<span id="ml_field" class="ML__fieldcontainer__field"></span>'; // If no value is specified for the virtualKeyboardMode, use
+    markup += '<span class="ML__fieldcontainer">' + '<span class="ML__fieldcontainer__field"></span>'; // If no value is specified for the virtualKeyboardMode, use
     // `onfocus` on touch-capable devices and `off` otherwise.
 
     if (!this.config.virtualKeyboardMode) {
@@ -42372,13 +42374,13 @@ function () {
         markup += this.config.virtualKeyboardToggleGlyph;
       } else {
         // <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h480c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm16 336c0 8.823-7.177 16-16 16H48c-8.823 0-16-7.177-16-16V112c0-8.823 7.177-16 16-16h480c8.823 0 16 7.177 16 16v288zM168 268v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm-336 80v-24c0-6.627-5.373-12-12-12H84c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm384 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zM120 188v-24c0-6.627-5.373-12-12-12H84c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm-96 152v-8c0-6.627-5.373-12-12-12H180c-6.627 0-12 5.373-12 12v8c0 6.627 5.373 12 12 12h216c6.627 0 12-5.373 12-12z"/></svg>
-        markup += "<span style=\"width:32px;height:32px;display:flex;justify-content:center;align-items:center\">\n                <svg class='icon' style=\"font-size:22px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1050 1000\"><path d=\"M810 101.7c61.8 0 112 50.2 112 112V811c0 61.8-50.2 112-112 112H212.7c-61.8 0-112-50.2-112-112V213.7c0-61.8 50.2-112 112-112H810m0-37.3H212.7c-82.5 0-149.3 66.9-149.3 149.3V811c0 82.5 66.9 149.3 149.3 149.3H810c82.5 0 149.3-66.9 149.3-149.3V213.7c0-82.4-66.8-149.3-149.3-149.3z\" fill=\"#333333\" p-id=\"8715\"></path><path d=\"M483.4 166.3h55.2v134.3h267.8v350.6h-53.7v-47H538.6v254.4h-55.2V604.2H270v47h-53.7V300.5h267.1V166.3zM270 551.9h213.4V352.8H270v199.1z m268.6 0h214.1V352.8H538.6v199.1z\" fill=\"#333333\" p-id=\"8716\"></path></svg>\n                </span>";
+        markup += "<span style=\"width:32px;height:32px;display:flex;justify-content:center;align-items:center\">\n            <svg class='icon' style=\"font-size:22px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1050 1000\"><path d=\"M810 101.7c61.8 0 112 50.2 112 112V811c0 61.8-50.2 112-112 112H212.7c-61.8 0-112-50.2-112-112V213.7c0-61.8 50.2-112 112-112H810m0-37.3H212.7c-82.5 0-149.3 66.9-149.3 149.3V811c0 82.5 66.9 149.3 149.3 149.3H810c82.5 0 149.3-66.9 149.3-149.3V213.7c0-82.4-66.8-149.3-149.3-149.3z\" fill=\"#333333\" p-id=\"8715\"></path><path d=\"M483.4 166.3h55.2v134.3h267.8v350.6h-53.7v-47H538.6v254.4h-55.2V604.2H270v47h-53.7V300.5h267.1V166.3zM270 551.9h213.4V352.8H270v199.1z m268.6 0h214.1V352.8H538.6v199.1z\" fill=\"#333333\" p-id=\"8716\"></path></svg>\n            </span>";
       }
 
       markup += '</button>';
     } else {
       // markup += '<span ></span>';
-      markup += "<div class=\"ML__virtual-keyboard-toggle\" data-tooltip=\"\u516C\u5F0F\u8F93\u5165\">\n            <span style='width:32px;height:32px;display:flex;justify-content:center;align-items:center'>\n                <svg class='icon' style=\"font-size:22px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1050 1000\"><path d=\"M955.74 34.14a34.16 34.16 0 0 1 34.12 34.12v887.48a34.16 34.16 0 0 1-34.12 34.12H68.26a34.16 34.16 0 0 1-34.12-34.12V68.26a34.16 34.16 0 0 1 34.12-34.12h887.48m0-34.14H68.26A68.26 68.26 0 0 0 0 68.26v887.48A68.26 68.26 0 0 0 68.26 1024h887.48A68.26 68.26 0 0 0 1024 955.74V68.26A68.26 68.26 0 0 0 955.74 0z\" fill=\"\" p-id=\"6126\"></path><path d=\"M328.18 513.02l62.8 6.84-11.6 31.38H518v54.62a253.7 253.7 0 0 1-64.84 107.86q49.8 22.56 79.86 38.24l-34.82 51.88q-38.92-22.52-95.56-49.16-66.24 43.02-169.3 70.32l-31.42-55.3q76.44-18.42 131.76-45.06-32-13.64-89.42-36.18 26-43 44.36-79.18H217.6v-58h96.92z m-108.56-190.48h129.04V196.96H408v125.58h118.78v56.68H408v3.42q51.2 21.18 110.6 52.56l-34.12 51.2Q436 447.5 408 429.74v76.46h-59.34v-115.38q-33.44 73.74-112.66 129.04l-32-52.58q70.34-40.26 101.72-88h-86zM280.4 210a644.74 644.74 0 0 1 41.6 81.14l-50.5 23.22q-21.14-51.18-45.06-86.7z m177.48 399.36h-103.76a581.56 581.56 0 0 1-30.72 54q38.9 13.68 68.26 25.26 44.34-34.26 66.22-79.34z m67.6-378.2a471.62 471.62 0 0 1-51.88 85.34l-47.8-25.28a516.16 516.16 0 0 0 48.48-84.64z m66.22 249.16q-18.46 43.02-34.14 68.96l-40.96-50.6Q574 386 594.42 195.58l63.58 10.92q-7.52 56.68-13.66 88.74h173.38v62.12h-38.98q-6.16 166.6-60 283.32 51.88 84 120.16 129.02l-37.56 54.62q-64.86-47.1-114-124.26a468 468 0 0 1-121.52 128.36l-34.12-55.3a373.8 373.8 0 0 0 121.5-133.8q-35.56-70.28-61.5-159.08z m39.58-122.88l-8.18 30.74q23.88 105.12 59.38 184.32 32-90.8 36.18-215.06z\" fill=\"\" p-id=\"6127\"></path></svg>\n            </span>\n            </div>"; // markup += `<button class="ML__virtual-keyboard-toggle" data-tooltip="${l10n('tooltip.toggle virtual keyboard')}">
+      markup += "<div class=\"ML__virtual-keyboard-toggle\" data-tooltip=\"\u516C\u5F0F\u8F93\u5165\">\n        <span style='width:32px;height:32px;display:flex;justify-content:center;align-items:center'>\n            <svg class='icon' style=\"font-size:22px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1050 1000\"><path d=\"M955.74 34.14a34.16 34.16 0 0 1 34.12 34.12v887.48a34.16 34.16 0 0 1-34.12 34.12H68.26a34.16 34.16 0 0 1-34.12-34.12V68.26a34.16 34.16 0 0 1 34.12-34.12h887.48m0-34.14H68.26A68.26 68.26 0 0 0 0 68.26v887.48A68.26 68.26 0 0 0 68.26 1024h887.48A68.26 68.26 0 0 0 1024 955.74V68.26A68.26 68.26 0 0 0 955.74 0z\" fill=\"\" p-id=\"6126\"></path><path d=\"M328.18 513.02l62.8 6.84-11.6 31.38H518v54.62a253.7 253.7 0 0 1-64.84 107.86q49.8 22.56 79.86 38.24l-34.82 51.88q-38.92-22.52-95.56-49.16-66.24 43.02-169.3 70.32l-31.42-55.3q76.44-18.42 131.76-45.06-32-13.64-89.42-36.18 26-43 44.36-79.18H217.6v-58h96.92z m-108.56-190.48h129.04V196.96H408v125.58h118.78v56.68H408v3.42q51.2 21.18 110.6 52.56l-34.12 51.2Q436 447.5 408 429.74v76.46h-59.34v-115.38q-33.44 73.74-112.66 129.04l-32-52.58q70.34-40.26 101.72-88h-86zM280.4 210a644.74 644.74 0 0 1 41.6 81.14l-50.5 23.22q-21.14-51.18-45.06-86.7z m177.48 399.36h-103.76a581.56 581.56 0 0 1-30.72 54q38.9 13.68 68.26 25.26 44.34-34.26 66.22-79.34z m67.6-378.2a471.62 471.62 0 0 1-51.88 85.34l-47.8-25.28a516.16 516.16 0 0 0 48.48-84.64z m66.22 249.16q-18.46 43.02-34.14 68.96l-40.96-50.6Q574 386 594.42 195.58l63.58 10.92q-7.52 56.68-13.66 88.74h173.38v62.12h-38.98q-6.16 166.6-60 283.32 51.88 84 120.16 129.02l-37.56 54.62q-64.86-47.1-114-124.26a468 468 0 0 1-121.52 128.36l-34.12-55.3a373.8 373.8 0 0 0 121.5-133.8q-35.56-70.28-61.5-159.08z m39.58-122.88l-8.18 30.74q23.88 105.12 59.38 184.32 32-90.8 36.18-215.06z\" fill=\"\" p-id=\"6127\"></path></svg>\n        </span>\n        </div>"; // markup += `<button class="ML__virtual-keyboard-toggle" data-tooltip="${l10n('tooltip.toggle virtual keyboard')}">
       //     <span style="width: 21px; margin-top: 4px;">
       //         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
       //             <path d="M528 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h480c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm16 336c0 8.823-7.177 16-16 16H48c-8.823 0-16-7.177-16-16V112c0-8.823 7.177-16 16-16h480c8.823 0 16 7.177 16 16v288zM168 268v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm-336 80v-24c0-6.627-5.373-12-12-12H84c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm384 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zM120 188v-24c0-6.627-5.373-12-12-12H84c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm96 0v-24c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v24c0 6.627 5.373 12 12 12h24c6.627 0 12-5.373 12-12zm-96 152v-8c0-6.627-5.373-12-12-12H180c-6.627 0-12 5.373-12 12v8c0 6.627 5.373 12 12 12h216c6.627 0 12-5.373 12-12z"/>
@@ -42388,7 +42390,7 @@ function () {
     }
 
     markup += '</span>';
-    markup += "\n        <div class=\"sr-only\">\n            <span aria-live=\"assertive\" aria-atomic=\"true\"></span>\n            <span></span>\n        </div>\n    ";
+    markup += "\n    <div class=\"sr-only\">\n        <span aria-live=\"assertive\" aria-atomic=\"true\"></span>\n        <span></span>\n    </div>\n";
     this.element.innerHTML = markup;
     var iChild = 0; // index of child -- used to make changes below easier
 
@@ -42518,14 +42520,14 @@ function () {
     }
   }
   /*
-   * handleEvent is a function invoked when an event is registered with an
-   * object instead ( see `addEventListener()` in `on()`)
-   * The name is defined by addEventListener() and cannot be changed.
-   * This pattern is used to be able to release bound event handlers,
-   * (event handlers that need access to `this`) as the bind() function
-   * would create a new function that would have to be kept track off
-   * to be able to properly remove the event handler later.
-   */
+       * handleEvent is a function invoked when an event is registered with an
+       * object instead ( see `addEventListener()` in `on()`)
+       * The name is defined by addEventListener() and cannot be changed.
+       * This pattern is used to be able to release bound event handlers,
+       * (event handlers that need access to `this`) as the bind() function
+       * would create a new function that would have to be kept track off
+       * to be able to properly remove the event handler later.
+       */
 
 
   editor_mathfield_createClass(MathField, [{
@@ -43154,6 +43156,11 @@ function () {
   }, {
     key: "_onBlur",
     value: function _onBlur() {
+      if (this.longPressed) {
+        // 阻止长按脱焦事件
+        return;
+      }
+
       if (!this.blurred) {
         this.blurred = true;
         this.ariaLiveText.textContent = '';
@@ -43172,7 +43179,7 @@ function () {
           this.config.onBlur(this);
         }
       } else {
-        console.log('中文环境下的脱焦时间');
+        console.log('中文环境下的脱焦事件');
 
         if (this.config.onBlur) {
           this.config.onBlur(this);
@@ -45208,7 +45215,7 @@ function () {
       var pressAndHoldTimer;
       on(el, 'mousedown touchstart:passive', function (ev) {
         // console.log(1111);
-        if (ev.type !== 'mousedown' || ev.buttons === 1) {
+        if (ev.type !== 'mousedown' || ev.buttons === 1 || ev.buttons === 0) {
           // The primary button was pressed or the screen was tapped.
           ev.stopPropagation();
 
@@ -45246,6 +45253,7 @@ function () {
 
             pressAndHoldTimer = window.setTimeout(function () {
               if (el.classList.contains('pressed')) {
+                that.longPressed = true;
                 that.$perform(JSON.parse(pressAndHoldStartCommand));
               }
             }, 300);
@@ -45262,7 +45270,7 @@ function () {
         // }
       });
       on(el, 'touchmove:passive', function (ev) {
-        // console.log(el,555);
+        // console.log(555);
         el.classList.remove('pressed'); // Unlike with mouse tracking, touch tracking only sends events
         // to the target that was originally tapped on. For consistency,
         // we want to mimic the behavior of the mouse interaction by
@@ -45299,7 +45307,7 @@ function () {
         }
       });
       on(el, 'mouseenter', function (ev) {
-        // console.log(2222,ev);
+        // console.log(2222);
         if (ev.buttons === 1 || ev.buttons === 0) {
           el.classList.add('pressed');
         }
@@ -45307,6 +45315,8 @@ function () {
       on(el, 'mouseup touchend click', function (ev) {
         // 触摸点击停止
         // console.log('触摸点击停止', 3333);
+        that.longPressed = false;
+
         if (syntheticTarget) {
           ev.stopPropagation();
           ev.preventDefault();
@@ -45397,6 +45407,7 @@ function () {
   }, {
     key: "showAlternateKeys_",
     value: function showAlternateKeys_(keycap, altKeys) {
+      console.log('显示长按键盘');
       var altContainer = getSharedElement('mathlive-alternate-keys-panel', 'ML__keyboard alternate-keys');
 
       if (this.virtualKeyboard.classList.contains('material')) {
@@ -45507,10 +45518,7 @@ function () {
   }, {
     key: "hideAlternateKeys_",
     value: function hideAlternateKeys_() {
-      console.log('键盘外点击事件'); // if (this.changeType === 'text') {
-      //     this.config.onBlur(this)
-      // }
-
+      console.log('隐藏长按的键盘');
       var altContainer = document.getElementById('mathlive-alternate-keys-panel');
 
       if (altContainer) {
@@ -45729,6 +45737,12 @@ function () {
     key: "toggleVirtualKeyboard_",
     value: function toggleVirtualKeyboard_(theme) {
       console.log('脱焦点击事件', this.virtualKeyboardVisible);
+
+      if (this.longPressed) {
+        // 如果在长按中，不操作键盘
+        console.log('长按，不允许关键盘');
+        return;
+      }
 
       if (!this.virtualKeyboardVisible) {
         this.turnOffBox_();

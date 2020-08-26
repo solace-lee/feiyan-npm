@@ -30,6 +30,12 @@
       default () {
         return ''
       }
+    },
+    errorMsg: { // 用来重写错误提示
+      type: String,
+      default () {
+        return '未作答'
+      }
     }
 ```
 ```
